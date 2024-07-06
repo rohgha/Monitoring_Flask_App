@@ -1,0 +1,35 @@
+1)What is programmatic access of aws? 
+Programmatic access to AWS (Amazon Web Services) refers to interacting with AWS services using code or scripts rather than through the AWS Management Console.
+This approach is typically preferred for automation, scripting, and integration purposes
+
+
+There are Two Ways: 
+1)AWS CLI (Command Line Interface):
+
+The AWS CLI is a unified tool to manage AWS services from the command line. It provides commands for various AWS services, 
+allowing you to automate common tasks and integrate AWS operations into scripts.
+
+To use the AWS CLI, you need to install it on your local machine or server, configure it with your AWS credentials (access key ID and secret access key), 
+and then you can start issuing commands to AWS services directly from your terminal or command prompt.
+
+
+2)AWS SDKs (Software Development Kits):
+AWS SDKs are available for multiple programming languages (such as Python, Java, JavaScript/Node.js, .NET, etc.). They provide APIs and libraries that 
+allow you to programmatically interact with AWS services in your applications.
+
+
+Using AWS SDKs, you can write code to perform tasks like creating instances, managing S3 buckets, launching EC2 instances, etc. 
+These SDKs handle authentication, request signing, and provide language-specific interfaces to AWS services.
+
+
+
+
+
+Resume Points for this apllication
+
+1)Developed a Flask application in Python to monitor CPU and memory utilization using psutil.
+2)Implemented AWS CLI and SDKs to automate Docker image creation, container deployment, and service management.
+3)Orchestrated Dockerized application deployment on Kubernetes, ensuring scalability and reliability.
+4)Utilized AWS Elastic Container Registry (ECR) for efficient Docker image storage and distribution.
+5)Managed infrastructure as code, enhancing deployment efficiency with Kubernetes manifests and AWS services.
+6)Demonstrated proficiency in DevOps practices, integrating continuous integration and deployment pipelines.
